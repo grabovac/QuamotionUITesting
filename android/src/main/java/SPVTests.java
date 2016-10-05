@@ -55,7 +55,7 @@ public class SPVTests implements MenuTester {
         String[] alleMenuItems = {"Home", "Competities", "Teams", "Jupiler Pro League", "Proximus League",
                 "Croky Cup", "Premier League", "WK Kwalificatie", "Instellingen"};
 
-        for (String menuItem : alleMenuItems) {
+        for (String menuItem:alleMenuItems) {
             zoekMenuItemEnKlik(driver, menuItem);
             klikOpMenuKnop(driver);
         }
